@@ -2,8 +2,8 @@ name: LabelAdder
 run-name: ${{github.actor}}
 on: 
   pull_request:
-    types: ["open"]
-job:
+    types: ["opened"]
+jobs:
   job1:
     name: job1
     runs-on: ubuntu-latest
